@@ -20,6 +20,10 @@ padding: 0;}
     padding: .5rem 1rem;
     box-shadow: 0px 0px 11px gray;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: #333;
+    border: 1px solid #0b090900;
+}
 .card-img-top {
     width: 100%;
     border-top-left-radius: calc(.25rem - 1px);
@@ -70,9 +74,8 @@ padding: 0;}
 }
 
 .nav-link:hover {
-   
-    border: 1px solid #333;
-    background: #e6f2e6;
+    border: !important;
+    background: #029f00;
     color: black !important;
+    border: 1px solid black !important;
 }
- 
