@@ -46,8 +46,13 @@ padding: 0;}
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
-   
+   overflow:hidden;
     margin-bottom: 20px;
+}
+.card img:hover{
+
+
+
 }
 .btn-custom {
     color: #333;
